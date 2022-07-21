@@ -23,10 +23,9 @@
 ## To build ( Only if you make changes to the `web` folder )
 ### Prerequisites
 * [Node > v10.6](https://nodejs.org/en/)
-* 
+
 ### Building
 * First, open cx-voting/web in a terminal of your choice
 * Now write these commands in your terminal: 
     * npm i
     * npm run build
-```
