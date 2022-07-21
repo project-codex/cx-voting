@@ -16,9 +16,8 @@
 
 ## Installation
 * Download the ZIP file and extract it in your resources folder.
-* Add ensure cx-tuners to your server.cfg
-* Drag and drop the images in `images`
-* Add items to qb-core/shared/items.lua
+* Add ensure `cx-tuners` to your `server.cfg`
+* Configure (add/remove) your candidates in `shared/config.lua`
 
 ## To build ( Only if you make changes to the `web` folder )
 ### Prerequisites
