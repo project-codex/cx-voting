@@ -12,7 +12,7 @@
 * [Latest Version of QBCore](https://github.com/qbcore-framework)
 * [PolyZone](https://github.com/mkafrin/PolyZone)
 * [qb-menu](https://github.com/qbcore-framework/qb-menu)
-* [oxmysql] (https://github.com/overextended/oxmysql)
+* [oxmysql](https://github.com/overextended/oxmysql)
 
 ## Installation
 * Download the ZIP file and extract it in your resources folder.
