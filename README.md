@@ -20,7 +20,7 @@
 * Drag and drop the images in `images`
 * Add items to qb-core/shared/items.lua
 
-## To build
+## To build ( Only if you make changes to the `web` folder )
 ### Prerequisites
 * [Node > v10.6](https://nodejs.org/en/)
 * 
