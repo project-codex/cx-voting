@@ -6,17 +6,27 @@
 
 # A better way to hold elections.
 
-## [Preview](https://youtu.be/CvuTuQYrO_s)
+## [Preview](https://youtu.be/ooFx5rXbvbs)
 
 ## Dependencies
 * [Latest Version of QBCore](https://github.com/qbcore-framework)
 * [PolyZone](https://github.com/mkafrin/PolyZone)
-* [qb-target](https://github.com/BerkieBb/qb-target)
 * [qb-menu](https://github.com/qbcore-framework/qb-menu)
+* [oxmysql] (https://github.com/overextended/oxmysql)
 
 ## Installation
 * Download the ZIP file and extract it in your resources folder.
 * Add ensure cx-tuners to your server.cfg
 * Drag and drop the images in `images`
 * Add items to qb-core/shared/items.lua
+
+## To build
+### Prerequisites
+* [Node > v10.6](https://nodejs.org/en/)
+* 
+### Building
+* First, open cx-voting/web in a terminal of your choice
+* Now write these commands in your terminal: 
+    * npm i
+    * npm run build
 ```
