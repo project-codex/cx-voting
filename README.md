@@ -15,8 +15,9 @@
 * [oxmysql](https://github.com/overextended/oxmysql)
 
 ## Installation
-* Download the ZIP file and extract it in your resources folder.
+* Download the ZIP file and extract it in your resources folder
 * Add ensure `cx-tuners` to your `server.cfg`
+* Run the `Voting.sql` file
 * Configure (add/remove) your candidates in `shared/config.lua`
 
 ## To build ( Only if you make changes to the `web` folder )
