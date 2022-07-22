@@ -16,7 +16,7 @@
 
 ## Installation
 * Download the ZIP file and extract it in your resources folder
-* Add ensure `cx-tuners` to your `server.cfg`
+* Add ensure `cx-voting` to your `server.cfg`
 * Run the `Voting.sql` file
 * Configure (add/remove) your candidates in `shared/config.lua`
 
