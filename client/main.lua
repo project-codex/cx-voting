@@ -84,28 +84,3 @@ RegisterCommand('svelte:send', function()
         data = after
     })
 end)
-
--- For a dev environment
-RegisterCommand('voting:createZones', function()
-    local zones = {}
-    for k, v in pairs(Config.VotingBooths) do
-        zones[#zones + 1] = BoxZone:Create(vector3(v.x, v.y, v.z), 1.0, 1.0, {
-            name = 'votingZone',
-            heading = v.w,
-            debugPoly = true
-        })
-    end
-    votingComboZone = ComboZone:Create(zones, {
-        name = "votingBoothZones",
-    })
-    votingComboZone:onPlayerInOut(function(isPointInside, point)
-        if isPointInside then
-            exports['qb-core']:DrawText('[E] Vote', 'left')
-            inZone = true
-            TriggerEvent('voting:client:showNui')
-        else
-            exports['qb-core']:HideText()
-            inZone = false
-        end
-    end)
-end)
