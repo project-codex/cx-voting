@@ -69,18 +69,3 @@ RegisterNUICallback('voting/castVote', function(data, cb)
     TriggerServerEvent('voting:server:castVote', data)
     cb({status='success'})
 end)
-
-RegisterCommand('svelte:send', function()
-    local after = {}
-    for k, v in pairs(Config.Candidates) do
-        print(v.name)
-        after[#after + 1] = {
-            name = v.name,
-            party = v.party
-        }
-    end
-    SendNUIMessage({
-        action = 'sendData',
-        data = after
-    })
-end)
